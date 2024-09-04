@@ -1,9 +1,8 @@
-import React from 'react'
 
-const App = () => {
+export const App = () => {
   return (
-    <div>Git Pull</div>
+    <div>
+      gcshdvhb
+    </div>
   )
 }
-
-export default App
