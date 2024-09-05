@@ -1,11 +1,9 @@
-import Header from "./component/header/Header"
-import Section from "./component/section/Section"
+import AppRout from "./router/AppRout"
 
 export const App = () => {
   return (
     <div>
-      <Header />
-      <Section />
+      <AppRout/>
     </div>
   )
 }

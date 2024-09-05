@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .container-section {
     border: 1px solid blue;
-    max-width: 1920px;
+    max-width: 1600px;
     margin: auto;
     height: 700px;
     background-position: center;
@@ -10,8 +10,8 @@
     .cards {
         border: 1px solid red;
         padding-top: 50px;
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left: 100px;
+        padding-right: 100px;
         display: flex;
         justify-content: center;
         align-items: center;

@@ -2,11 +2,12 @@ import rull from '../../assets/rull.svg'
 import './header.css'
 import elec from '../../assets/electr.svg'
 import gaz from '../../assets/mdi_gasoline.svg'
+import { NavLink } from 'react-router-dom'
 
 
 const Header = () => {
   return (
-    <div className="container-head">
+    <div className="container">
       <header>
         <div className='header-head'>
           <div className='logo-head'>
@@ -14,8 +15,12 @@ const Header = () => {
             <h3>AUTO</h3>
           </div>
           <div className='ashka-head'>
-            <a href="#">Главная</a>
-            <a href="#">Купить автомобиль</a>
+            <NavLink to='/about'>
+              О нас
+            </NavLink>
+            <NavLink to='/admin'>
+              Админ часть
+            </NavLink>
             <a href="#">О компании</a>
             <a href="#">Услуги</a>
           </div>
